@@ -17,6 +17,7 @@ def get_db():
 @app.get("/")
 def home():
     return{"connected"}
+    return{" easy game"}
 
 # user
 class User(BaseModel):
